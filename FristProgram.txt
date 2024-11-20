@@ -1,0 +1,15 @@
+Class Frist Program
+{ 
+  public static void main(String[] args)
+  {
+    System.out.println("studentId:" + "2413170016");
+    System.out.println("studentName:" + "Mathus Srichat");
+    System.out.println("Topic:" + "gitHup");
+    System.out.println("Date:" + "11/20/2024");
+    JOptionPane.showMessageDialog(null,
+                                  "studentId:" + "2413170016" +
+                                  "\nstudentName:" + "Mathus Srichat" +
+                                  "\nTopic:" + "gitHup" +
+                                  "\nDate:" + "11/20/2024");
+   }
+}
