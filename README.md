@@ -1,2 +1,2 @@
-# 2567_JavaprogrammingSec2
+# 2567_Javaprogramming
 สำหรับการสอนวิชา JavaProgramming เท่านั้น
