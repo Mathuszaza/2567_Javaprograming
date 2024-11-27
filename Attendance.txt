@@ -1,4 +1,4 @@
 studentId:2413170016
 studentName:Mathus Srichat
-Topic:githup
-Date:11/20/2024
+Topic:Variable,Formatting Output,and Input Data
+Date:11/27/2024
