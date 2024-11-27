@@ -9,7 +9,7 @@ public class javaExample2 {
 		double productPrice = Double.parseDouble(JOptionPane.showInputDialog("" + "Input Price per Unit"));
 		double totalPriceofProduct = productUnit *productPrice;
 		double toalwithVat = totalPriceofProduct * 1.07;
-		JOptionPane.showMessageDialog(null, "Total Price is"+totalPriceofProduct+" baht."+"\nAdd VAT7% is "+toalwithVat+ " baht.");
+		JOptionPane.showMessageDialog(null, "Total Price is"+totalPriceofProduct+" baht."+"\nAdd VAT 7% is "+toalwithVat+ " baht.");
 
 	}
 
