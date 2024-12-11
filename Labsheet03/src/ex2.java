@@ -19,9 +19,6 @@ public class ex2 {
 		else {
 			JOptionPane.showMessageDialog(null,"Your email is not hotmail or gmail dot com:");
 		}
-				
- 
-	}
- 
+	} 
 }
  

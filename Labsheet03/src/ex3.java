@@ -58,8 +58,7 @@ public class ex3 {
 			else {
 				System.out.println("Password validation errors.");
 				System.out.println(error);
-			}
-				
+			}				
 		}
 		input.close();
  

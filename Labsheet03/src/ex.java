@@ -21,7 +21,6 @@ public class ex {
 			txtConcate += word + " ";
 		}//end of while
 		System.out.println(txtConcate.toUpperCase());
-		
 		input.close();
  
 	}
