@@ -52,14 +52,19 @@ public class Lab404 {
     }
     public static void displayData(boolean isSt,boolean isSub) {
     	System.out.println();
-    	if(isSt==true && isSub==true) {
-    		System.out.print("Student id:"+ studentID+"1st year student in IT /nEroll in courses for Year 1");
-    	}
-    	else if(isSt==true && isSub==false) {
-    		System.out.print("Student id:"+ studentID+"1st year student in IT /nnot eroll in courses for Year 1");
-    	}
-    	else {
-    		System.out.print("Student id:"+ studentID+"is not 1st year student in IT /nEroll in courses for Year 1");
-    	}
-    }
+    	if (isSt == true) {
+			System.out.print("1st year student in IT");
+		}
+		else {
+			System.out.print("is not 1st year student in IT");
+		}
+		if (isSub == true) {
+			System.out.print("\nEnroll in courses for Year 1");
+		}
+		else {
+			System.out.print("\nnot enroll in courses for Year 1");
+		}
+ 
+ 
+	}
 }
