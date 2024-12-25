@@ -22,8 +22,7 @@ public class Lab404 {
 			if(isStudentIDVaild && isSubjectCobeVaild) {
 				boolean isITStudent = isITStudent(studentID);
 				boolean isITSubject = isITSubject(subjectCobe);
-				
-				//displayData(isITStudent,isITSubject);
+
 				break;
 			}else {
 				System.out.print("");

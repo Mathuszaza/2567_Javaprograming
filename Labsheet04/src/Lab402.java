@@ -4,23 +4,23 @@ public class Lab402 {
     public static void main(String[] args) {
         
         //input
-        int normalyear = Integer.parseInt(JOptionPane.showInputDialog(null, "Input year:"));
+        int normalYear = Integer.parseInt(JOptionPane.showInputDialog(null, "Input year:"));
  
         
-        if (checkYear(normalyear) == false) {
+        if (checkYear(normalYear) == false) {
             while (true) {
-            	normalyear = Integer.parseInt(JOptionPane.showInputDialog(null, "Input year:"));
-                if (checkYear(normalyear) == false) {
+            	normalYear = Integer.parseInt(JOptionPane.showInputDialog(null, "Input year:"));
+                if (checkYear(normalYear) == false) {
                     break;
                 }
             }
         }
         
-        if (isLeapYear(normalyear) == true) {
-            JOptionPane.showMessageDialog(null, normalyear + " is Leap year.");
+        if (isLeapYear(normalYear) == true) {
+            JOptionPane.showMessageDialog(null, normalYear + " is Leap year.");
         }
         else {
-            JOptionPane.showMessageDialog(null, normalyear + " is NOT Leap year.");
+            JOptionPane.showMessageDialog(null, normalYear + " is NOT Leap year.");
         }
  
     }
@@ -37,8 +37,8 @@ public class Lab402 {
  
     }
     
-    public static boolean checkYear(int yearToCheck) {
-        if (yearToCheck >= 1000 && yearToCheck <= 3000) {
+    public static boolean checkYear(int checkYear) {
+        if (checkYear >= 1000 && checkYear <= 3000) {
                 
             return true;
         }
