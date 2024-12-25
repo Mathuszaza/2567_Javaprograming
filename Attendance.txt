@@ -1,4 +1,4 @@
 studentId:2413170016
 studentName:Mathus Srichat
-Topic:Method
-Date:12/18/2024
+Topic:Array Method
+Date:12/23/2024
