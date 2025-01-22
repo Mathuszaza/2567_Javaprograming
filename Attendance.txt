@@ -1,4 +1,4 @@
 studentId:2413170016
 studentName:Mathus Srichat
-Topic:ClassandObject
-Date:1/15/2025
+Topic:Encapsulation
+Date:1/22/2025
