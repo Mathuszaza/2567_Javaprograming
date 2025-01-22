@@ -22,7 +22,7 @@ public class Testemployeeinput {
 		emp1.displayEmployeeDetails();
 		Line('*');
 		
-		scan.nextLine();
+		scan.nextLine(); //Consume leftover newline
 		
 		System.out.println("Enter details for Employee 2:");
 		System.out.print("Name: ");
