@@ -1,4 +1,4 @@
 studentId:2413170016
 studentName:Mathus Srichat
-Topic:Array Object
-Date:1/29/2025
+Topic:Inheritance Concept
+Date:2/5/2025
