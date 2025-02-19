@@ -1,4 +1,4 @@
 studentId:2413170016
 studentName:Mathus Srichat
-Topic:Inheritance Concept
-Date:2/5/2025
+Topic:Abstart and interface
+Date:2/19/2025
