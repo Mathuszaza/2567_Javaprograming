@@ -4,22 +4,22 @@ public class Product {
 	private int productUnit;
 	private double productPrice;
 	
-	public void setProductId(String Id) {
+	public void setId(String Id) {
 		productId = Id;
 	}
-	public String getProductId() {
+	public String getId() {
 		return productId;
 	}
-	public void setproductUnit(int unit) {
+	public void setUnit(int unit) {
 		productUnit = unit;
 	}
-	public int getproductUnit() {
+	public int getUnit() {
 		return productUnit;
 	}
-	public void setproductPrice(double price) {
+	public void setPrice(double price) {
 		productPrice = price;
 	}
-	public double getproductPrice() {
+	public double getPrice() {
 		return productPrice;
 	}
 	public double calculate() {
